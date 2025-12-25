@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/tmp/kavia/workspace/code-generation/digital-tech-blog-5829-5838/blog_frontend"
+}
