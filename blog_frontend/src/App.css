@@ -21,12 +21,21 @@
   --button-text: #ffffff;
 }
 
+@import './components/NavBar.css';
+@import './components/Footer.css';
+@import './pages/Home.css';
+@import './pages/PostDetail.css';
+@import './pages/About.css';
+
 .App {
-  text-align: center;
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
   min-height: 100vh;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+  background: #f9fafb;
+  color: #111827;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.3s, color 0.3s;
+  min-height: 100vh;
 }
 
 .App-logo {

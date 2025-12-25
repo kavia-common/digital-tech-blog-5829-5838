@@ -1,0 +1,55 @@
+.about-main {
+  max-width: 850px;
+  margin: 2.7rem auto 0 auto;
+  background: #fff;
+  padding: 2.05rem 1.5rem;
+  border-radius: 9px;
+  box-shadow: 0 1px 12px rgba(59, 130, 246, 0.06);
+}
+
+.about-title {
+  color: #3b82f6;
+  font-size: 2rem;
+  margin-bottom: 1.3rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.about-section {
+  color: #111827;
+  font-size: 1.14rem;
+  line-height: 1.80;
+}
+
+.brand {
+  color: #06b6d4;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.about-highlight {
+  color: #3b82f6;
+  font-weight: 500;
+  font-size: 1.05em;
+}
+
+.about-section ul {
+  margin: 1.25em 0 1.2em 0;
+  padding-left: 1.25em;
+  line-height: 2.0;
+}
+
+.about-section li {
+  margin-bottom: 0.15em;
+}
+
+@media (max-width: 700px) {
+  .about-main {
+    margin-top: 1rem;
+    padding: 1.2rem 0.5rem;
+    font-size: 1rem;
+  }
+  .about-title {
+    font-size: 1.23rem;
+  }
+}
